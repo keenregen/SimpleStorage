@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Blank  
-// Warnings does not stop you from compiling but errors do
+// Warnings do not stop you from compiling but errors do
 
 pragma solidity ^0.8.8;
 // pragma solidity 0.8.7;
