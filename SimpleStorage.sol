@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: Blank  
-// Warnings do not stop you from compiling but errors do
+//Warnings does not stop you from compiling but errors does
 
 pragma solidity ^0.8.8;
 // pragma solidity 0.8.7;
@@ -24,8 +24,8 @@ contract SimpleStorage {
     uint256 favNum = 1;  // if no num is given, then default val is 0; storage var
     // uint256 public favNum; //automatic getter
 
-    // 1c
-    function store(uint256 _favNum) public {
+    // 1c (virtual word is for later)
+    function store(uint256 _favNum) public virtual{
         favNum = _favNum;
         // favNum = favNum + 10;
     }
